@@ -10,64 +10,64 @@
     --card-foreground: 240 10% 10%;
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 10%;
-    --primary: 280 100% 65%;
+    --primary: 328 100% 62%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 340 100% 65%;
+    --secondary: 193 100% 59%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 280 20% 97%;
-    --muted-foreground: 240 5% 45%;
-    --accent: 45 100% 60%;
+    --muted: 220 20% 97%;
+    --muted-foreground: 220 10% 45%;
+    --accent: 84 100% 67%;
     --accent-foreground: 240 10% 10%;
-    --destructive: 0 100% 65%;
+    --destructive: 351 100% 65%;
     --destructive-foreground: 0 0% 100%;
-    --border: 280 20% 92%;
-    --input: 280 20% 92%;
-    --ring: 280 100% 65%;
+    --border: 220 20% 92%;
+    --input: 220 20% 92%;
+    --ring: 328 100% 62%;
     --radius: 1rem;
   }
 
   .dark {
-    --background: 260 30% 8%;
-    --foreground: 0 0% 98%;
-    --card: 260 25% 12%;
-    --card-foreground: 0 0% 98%;
-    --popover: 260 25% 12%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 280 100% 70%;
+    --background: 210 25% 4%;
+    --foreground: 210 20% 98%;
+    --card: 210 20% 6%;
+    --card-foreground: 210 20% 98%;
+    --popover: 210 20% 6%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 328 100% 62%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 340 100% 70%;
+    --secondary: 193 100% 59%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 260 20% 18%;
-    --muted-foreground: 240 5% 70%;
-    --accent: 45 100% 65%;
-    --accent-foreground: 260 30% 8%;
-    --destructive: 0 100% 70%;
+    --muted: 210 15% 10%;
+    --muted-foreground: 210 10% 60%;
+    --accent: 84 100% 67%;
+    --accent-foreground: 210 25% 4%;
+    --destructive: 351 100% 65%;
     --destructive-foreground: 0 0% 100%;
-    --border: 260 20% 22%;
-    --input: 260 20% 22%;
-    --ring: 280 100% 70%;
+    --border: 210 15% 12%;
+    --input: 210 15% 12%;
+    --ring: 328 100% 62%;
   }
 
   .dim {
-    --background: 260 20% 12%;
-    --foreground: 0 0% 98%;
-    --card: 260 18% 18%;
-    --card-foreground: 0 0% 98%;
-    --popover: 260 18% 18%;
-    --popover-foreground: 0 0% 98%;
-    --primary: 280 100% 68%;
+    --background: 210 20% 7%;
+    --foreground: 210 15% 94%;
+    --card: 210 18% 9%;
+    --card-foreground: 210 15% 94%;
+    --popover: 210 18% 9%;
+    --popover-foreground: 210 15% 94%;
+    --primary: 328 100% 64%;
     --primary-foreground: 0 0% 100%;
-    --secondary: 340 100% 68%;
+    --secondary: 193 100% 61%;
     --secondary-foreground: 0 0% 100%;
-    --muted: 260 15% 25%;
-    --muted-foreground: 240 5% 68%;
-    --accent: 45 100% 62%;
-    --accent-foreground: 260 20% 12%;
-    --destructive: 0 100% 68%;
+    --muted: 210 15% 15%;
+    --muted-foreground: 210 10% 64%;
+    --accent: 84 100% 69%;
+    --accent-foreground: 210 20% 7%;
+    --destructive: 351 100% 67%;
     --destructive-foreground: 0 0% 100%;
-    --border: 260 15% 30%;
-    --input: 260 15% 30%;
-    --ring: 280 100% 68%;
+    --border: 210 15% 18%;
+    --input: 210 15% 18%;
+    --ring: 328 100% 64%;
   }
 }
 
@@ -119,24 +119,24 @@
   }
   
   .gradient-primary {
-    background: linear-gradient(135deg, hsl(280 100% 65%) 0%, hsl(340 100% 65%) 100%);
+    background: linear-gradient(135deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   }
   
   .gradient-accent {
-    background: linear-gradient(135deg, hsl(45 100% 60%) 0%, hsl(30 100% 60%) 100%);
+    background: linear-gradient(135deg, #2BD2FF 0%, #B2FF59 100%);
   }
   
   .gradient-mesh {
     background: 
-      radial-gradient(at 0% 0%, hsl(280 100% 65% / 0.15) 0px, transparent 50%),
-      radial-gradient(at 100% 0%, hsl(340 100% 65% / 0.15) 0px, transparent 50%),
-      radial-gradient(at 100% 100%, hsl(45 100% 60% / 0.15) 0px, transparent 50%),
-      radial-gradient(at 0% 100%, hsl(200 100% 60% / 0.15) 0px, transparent 50%);
+      radial-gradient(at 0% 0%, rgba(255, 60, 172, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 0%, rgba(43, 210, 255, 0.15) 0px, transparent 50%),
+      radial-gradient(at 100% 100%, rgba(178, 255, 89, 0.15) 0px, transparent 50%),
+      radial-gradient(at 0% 100%, rgba(120, 75, 160, 0.15) 0px, transparent 50%);
   }
   
   .text-gradient {
     @apply bg-clip-text text-transparent;
-    background-image: linear-gradient(135deg, hsl(280 100% 65%) 0%, hsl(340 100% 65%) 100%);
+    background-image: linear-gradient(135deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
   }
 }
 
