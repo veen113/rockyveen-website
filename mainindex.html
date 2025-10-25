@@ -1,0 +1,825 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Filterable Image Gallery Bootstrap</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css"
+    />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+
+
+
+     <nav class="navbar">
+  <div class="navdiv">
+    <div class="logo"><a href="#">CATEGORIES</a></div>
+    
+  </div>
+ <div class="home-link">
+  <a href="index.html#home">HOME PAGE</a>
+</div>
+</nav>
+
+
+    <div class="container">
+      <!-- Images Filter Buttons Section -->
+      <div class="row mt-5" id="filter-buttons">
+        <div class="col-12">
+          <button class="btn mb-2 me-1 active" data-filter="all">Show all</button>
+          <button class="btn mb-2 mx-1" data-filter="nature">Food & Beverage Brands</button>
+          <button class="btn mb-2 mx-1" data-filter="cars">Beauty, Fashion & Lifestyle</button>
+          <button class="btn mb-2 mx-1" data-filter="tech">Tech</button>
+          <button class="btn mb-2 mx-1" data-filter="health">Health</button>
+        </div>
+      </div>
+
+      <!-- Filterable Images / Cards Section -->
+      <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+        <!-- START OF IMAGE CARDS -->
+        
+        <!-- Nature -->
+      <div class="card p-0" data-name="nature">
+  
+    <img src="images/Fritaire.png" alt="img" />
+    <div class="card-body">
+      <h6 class="card-title">Fritaire</h6>
+      
+      <p class="card-text">Smart air fryers and kitchen appliances that make healthy cooking simple.</p>
+   <!-- From Uiverse.io by alexmaracinaru --> 
+
+   <a href="https://fritaire.com/" target="_blank" style="text-decoration:none;">
+  <button class="cta">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+    </div>
+  </div>
+
+
+        <!-- Duplicates up to 43 -->
+        <!-- Just change file names accordingly -->
+        <!-- You can replace categories as needed -->
+        
+        <div class="card p-0" data-name="nature">
+  <img src="images/Javafactory.png" alt="img" />
+  
+  <div class="card-body">
+    <h6 class="card-title">Java Factory</h6>
+    <p class="card-text">Premium coffee pods and blends crafted for bold flavor lovers.</p>
+  <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://javafactory.com/" target="_blank" rel="noopener noreferrer" style="text-decoration:none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10" aria-hidden="true">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/nixplay.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Nixplay</h6>
+    <p class="card-text">Smart digital photo frames to share memories instantly.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.nixplay.com/" target="_blank" style="text-decoration:none;">
+  <button class="cta">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/Tiken.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Tiken Ware</h6>
+    <p class="card-text">Eco-friendly kitchenware designed for modern living.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.tikenware.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/UVI (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Uvi Lunch Box</h6>
+    <p class="card-text">Innovative lunch boxes that keep your meals fresh and tasty.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://uvilunchbox.com/?srsltid=AfmBOop2SbW5SLRD5_d5gmPWBcjrSHqCM2OGfHtIFGkNz-TcHIrkDUvH" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/encool.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Encool</h6>
+    <p class="card-text">Cooling solutions and lifestyle gadgets for daily comfort.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://encool.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/SW (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Slimwalt</h6>
+    <p class="card-text">Compact wallets blending fashion with functionality.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://slimwalt.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/pureboost (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Pureboost</h6>
+    <p class="card-text">Clean energy drinks packed with antioxidants and vitamins.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://pureboost.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/casamaestri.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Casa Maestri Distillery</h6>
+    <p class="card-text">Award-winning tequila handcrafted in the heart of Mexico.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://casamaestri.com/?srsltid=AfmBOornmLkWyz4xpMu6KCOJQkjSVdLSdMfQDFYDvMqQBe8IonKkui4Q" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/joyfront.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Joy Front</h6>
+    <p class="card-text">Elegant accessories designed to brighten your everyday style.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://joyfront.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/marcala.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Marcala Home & Auto</h6>
+    <p class="card-text">Trusted essentials for your home and automotive care.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.marcalallc.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/Galary grace.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Gallery Grace</h6>
+    <p class="card-text">Art-inspired décor and home pieces for modern interiors.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.gallerygrace.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/TRC.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Two Rivers Coffee</h6>
+    <p class="card-text">Small-batch roasted coffee offering a world of flavor.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.tworiversdirect.com/?srsltid=AfmBOorOZI35UO904CCjyT00H_wZYURzv1kN1Rm459pThyBVBe1GBLEV" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visite</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/maelreg.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Maelreg</h6>
+    <p class="card-text">Performance-driven products for active lifestyles.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.maelreg.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/polarpro (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">PolarPro</h6>
+    <p class="card-text">Premium camera filters and accessories for creators.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.polarpro.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/Evrid water.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Evrid Wear</h6>
+    <p class="card-text">Smart apparel combining comfort with innovation.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://evridwear.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/ascreno.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Ascrono</h6>
+    <p class="card-text">Modern tech accessories for smart, stylish users.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://ascrono.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/jabasic.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Jabasic</h6>
+    <p class="card-text">Trendy and durable footwear for casual comfort.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://jabasicshoes.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/Itour Translatour.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">iTourTranslator</h6>
+    <p class="card-text">Real-time translation tools for travelers and guides.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.itourtranslator.com/?srsltid=AfmBOoqc88EgIqs4JpZMy1W7_LKR1xGfzpTfoAX_0q725XvEONBq98Dj" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/Gratsi.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Gratsi Wine</h6>
+    <p class="card-text">Sustainable, high-quality wines for relaxed gatherings.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://gratsi.com/?srsltid=AfmBOooxCcnEtKvAeLsmrdDnQalKUxfo25GkfzRGlsLZbdfaO5XVbedM" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/Madison.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Madison Park</h6>
+    <p class="card-text">Elegant home décor and bedding with timeless charm.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://madisonpark.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="food">
+  <img src="images/Cocinare.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Cocinaré</h6>
+    <p class="card-text">Premium kitchen tools designed for home chefs and creators.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://cocinare.com/?srsltid=AfmBOooJoneBEsWpIBvXiHJUdlAsmCZ-UIrYc0-q6z39BgxhC6ycYpDi" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/H.E.B.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">H-E-B</h6>
+    <p class="card-text">A trusted grocery chain delivering freshness and quality.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.heb.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/Lesong.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Lesongtoy</h6>
+    <p class="card-text">Innovative kids’ toys made to inspire creativity and fun.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://lesongtoy.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="tech">
+  <img src="images/iclever.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">iClever</h6>
+    <p class="card-text">Smart gadgets and accessories built for modern lifestyles.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://iclever.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/SVVIMER (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Svvimer</h6>
+    <p class="card-text">Fitness wear designed for swimmers and active athletes.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://svvimer.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/Vantrue (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">VANTRUE</h6>
+    <p class="card-text">Advanced dash cams providing reliable safety and clarity on the road.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.vantrue.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/psych.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Next Step Psychiatry</h6>
+    <p class="card-text">Professional mental health support and wellness care.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://nextsteppsychiatry.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/fruitriot.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Fruit Riot</h6>
+    <p class="card-text">Refreshing fruit-based beverages for every mood.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://fruitriot.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/Lamburgerman.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Iamburgerman</h6>
+    <p class="card-text">Juicy gourmet burgers crafted with premium ingredients.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.burgerman.in/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/Mezbaaz Kitchen.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Mezbaan Kitchen</h6>
+    <p class="card-text">Authentic Indian dishes celebrating traditional flavors.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://mezbaankitchen.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/sashka.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Sashka Co. Bracelets</h6>
+    <p class="card-text">Handcrafted glass bead bracelets empowering artisans worldwide.</p>
+  <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://sashkaco.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit </span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/Mordern Nailsalon (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Modern Nails Salon</h6>
+    <p class="card-text">Luxury nail treatments blending style, care, and creativity.</p>
+  <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://cuttingedgenails.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/iron age.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Iron Age Korean Steakhouse</h6>
+    <p class="card-text">Authentic Korean BBQ experience with modern dining flair.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://ironagekoreansteakhouse.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/pinchme.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">PINCHme</h6>
+    <p class="card-text">Discover and try free samples from top global brands.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.pinchme.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/Chalo India (1).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">chalo India Frisco</h6>
+    <p class="card-text">Indian dining destination offering rich, authentic flavors.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://chaloindiausa.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="cars">
+  <img src="images/Buc.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Buc</h6>
+    <p class="card-text">Everyday essentials crafted for style and functionality.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://buc-ees.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+</div>
+
+<div class="card p-0" data-name="health">
+  <img src="images/Autel.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Autel Energy</h6>
+    <p class="card-text">Innovative EV chargers and clean energy solutions.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://autelenergy.com/global" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+  </div>
+</div>
+
+<div class="card p-0" data-name="nature">
+  <img src="images/coffee.png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">Ovia Coffee</h6>
+    <p class="card-text">Craft coffee brand offering rich, aromatic blends worldwide.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://www.oviacoffee.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+
+  </div>
+  </div>
+
+  <div class="card p-0" data-name="nature">
+  <img src="assets/images/shein (2).png" alt="img" />
+  <div class="card-body">
+    <h6 class="card-title">SHEIN</h6>
+    <p class="card-text">SHEIN is a global fast-fashion brand known for trendy, affordable clothing and accessories targeting young shoppers.</p>
+    <!-- From Uiverse.io by alexmaracinaru --> 
+<a href="https://us.shein.com/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+  <button class="cta" type="button">
+    <span>Visit</span>
+    <svg width="15px" height="10px" viewBox="0 0 13 10">
+      <path d="M1,5 L11,5"></path>
+      <polyline points="8 1 12 5 8 9"></polyline>
+    </svg>
+  </button>
+</a>
+</div>
+
+
+
+        <!-- Continue pattern -->
+        <!-- ... up to 43 total -->
+        <!-- For brevity, assume similar pattern -->
+        <!-- Replace filenames img-27.jpg → img-43.jpg -->
+
+        <!-- END OF IMAGE CARDS -->
+      </div>
+    </div>
+  </body>
+</html>

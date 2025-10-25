@@ -1,0 +1,201 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: #000; /* Black background */
+    color: #fff;           /* White text by default */
+    font-family: Arial, sans-serif;
+}
+
+body .container {
+  max-width: 1100px;
+}
+
+#filter-buttons button {
+  border-radius: 50px;
+  background: #fff;
+  border-color: transparent;
+}
+
+#filter-buttons button:hover {
+  background: #ddd;
+}
+
+#filter-buttons button.active {
+  color: #fff;
+  background: #6c757d;
+}
+
+#filterable-cards .card {
+  width: 15rem;
+  border: 5px solid transparent;
+}
+
+#filterable-cards .card.hide {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #filterable-cards {
+    justify-content: center;
+  }
+
+  #filterable-cards .card {
+    width: calc(100% / 2 - 10px);
+  }
+}
+
+
+
+/* From Uiverse.io by alexmaracinaru */ 
+.cta {
+  position: relative;
+  margin: auto;
+  padding: 12px 18px;
+  transition: all 0.2s ease;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.cta:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  border-radius: 50px;
+  background: #b1dae7;
+  width: 45px;
+  height: 45px;
+  transition: all 0.3s ease;
+}
+
+.cta span {
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  color: #234567;
+}
+
+.cta svg {
+  position: relative;
+  top: 0;
+  margin-left: 10px;
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke: #234567;
+  stroke-width: 2;
+  transform: translateX(-5px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover:before {
+  width: 100%;
+  background: #b1dae7;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active {
+  transform: scale(0.95);
+}
+
+
+
+  /* Navbar container */
+.navbar {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;   /* Centers content horizontally */
+  align-items: center;       /* Centers vertically */
+  width: 100%;
+}
+
+/* Inner container */
+.navdiv {
+  text-align: center;
+}
+
+/* Logo text styling */
+.logo a {
+  color: peachpuff;          /* Text color */
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.logo a:hover {
+  color: #ffd9b3;            /* Slightly lighter peach hover */
+}
+
+/* Responsive font adjustment */
+@media (max-width: 768px) {
+  .logo a {
+    font-size: 20px;
+  }
+}
+
+
+
+
+
+/* Navbar container */
+.navbar {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: flex-end;   /* Moves HOME to the right side */
+  align-items: center;         /* Centers vertically */
+  width: 100%;
+}
+
+/* Inner container */
+.home-link {
+  text-align: right;
+  margin-right: 40px;          /* Small right spacing */
+}
+
+/* HOME link styling */
+.home-link a {
+  color: peachpuff;            /* Text color */
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect */
+.home-link a:hover {
+  color: #ffd9b3;              /* Slightly lighter peach hover */
+}
+
+/* Responsive font adjustment */
+@media (max-width: 768px) {
+  .home-link a {
+    font-size: 20px;
+  }
+
+  .navbar {
+    justify-content: center;   /* Center HOME on smaller screens */
+  }
+
+  .home-link {
+    margin-right: 0;
+    text-align: center;
+  }
+}
