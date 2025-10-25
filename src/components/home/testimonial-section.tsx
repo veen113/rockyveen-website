@@ -14,28 +14,28 @@ const testimonials = [
     quote: "I purchased the products recommended by Rockyveen, and they turned out to be incredibly beneficial and worth every penny!",
     author: "Sam Johnson",
     role: "Verified Customer",
-    avatar: "/images/testi-avatar.jpg"
+    avatar: "/images/coffee.jpg"
   },
   {
     id: 2,
     quote: "RockyVeen's content is authentic and engaging. His reviews helped me make confident purchasing decisions. Highly recommend!",
     author: "Emily Chen",
     role: "Fashion Enthusiast",
-    avatar: "/images/testi-avatar.jpg"
+    avatar: "/images/shoe.jpg"
   },
   {
     id: 3,
     quote: "Working with Rocky was amazing! His UGC content drove real results for our brand. Professional, creative, and reliable.",
     author: "Marcus Williams",
     role: "Brand Manager",
-    avatar: "/images/testi-avatar.jpg"
+    avatar: "/images/headset.jpg"
   },
   {
     id: 4,
     quote: "The quality of Rocky's content is top-notch. His authentic approach really resonates with our target audience.",
     author: "Sarah Martinez",
     role: "Marketing Director",
-    avatar: "/images/testi-avatar.jpg"
+    avatar: "/images/box.jpg"
   }
 ]
 
