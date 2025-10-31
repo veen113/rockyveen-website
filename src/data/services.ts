@@ -4,7 +4,7 @@ export const services: Service[] = [
   {
     id: 'starter',
     name: 'Starter',
-    price: 'Starting at $500',
+    price: '1 reel',
     description: 'Perfect for brands testing UGC or launching a single Instagram campaign',
     features: [
       '3 Instagram Reels (15-60 seconds each)',
@@ -19,7 +19,7 @@ export const services: Service[] = [
   {
     id: 'pro',
     name: 'Pro',
-    price: 'Starting at $1,200',
+    price: '3 reels',
     popular: true,
     description: 'For brands running active Instagram campaigns who need volume and variety',
     features: [
@@ -36,7 +36,7 @@ export const services: Service[] = [
   {
     id: 'retainer',
     name: 'Retainer',
-    price: 'Custom (typically $3,000-$5,000/month)',
+    price: '5 reels',
     description: 'For brands who need ongoing, high-volume Instagram content with strategic support',
     features: [
       '20-30 Instagram Reels per month',
@@ -48,7 +48,6 @@ export const services: Service[] = [
       'Perpetual UGC usage rights',
       'Monthly Instagram strategy calls',
       'A/B testing recommendations',
-      'Dedicated Slack channel',
     ],
   },
 ]
